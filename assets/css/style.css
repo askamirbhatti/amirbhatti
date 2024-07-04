@@ -1310,3 +1310,74 @@ main.main-14 .main-wrapper.demo-14 .content-wrapper .subscribe-form button {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 01px 0;
+    text-align: center;
+}
+
+.footer-section-title {
+	margin: 0px 0px 05px 0px;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 05px 10px 5px 10px;
+    min-width: 200px;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.footer-section p, .footer-section a {
+    color: #ccc;
+    text-decoration: none;
+	margin: 0px 10px 0px 10px
+}
+
+.footer-section img {
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    transition: transform 0.3s;
+}
+
+.footer-section img:hover {
+    transform: scale(1.2);
+}
+
+.footer-section i {
+    margin-right: 8px;
+    transition: transform 0.3s;
+}
+
+.footer-section a:hover i {
+    transform: scale(1.2);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-section {
+        margin: 10px 0;
+    }
+}
