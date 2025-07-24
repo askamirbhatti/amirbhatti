@@ -989,25 +989,25 @@ input:focus {
 
 .countdown .single-count-content {
   position: relative;
-  padding: 0 40px;
+  padding: 0px 40px;
   text-align: center;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .countdown .single-count-content {
-    padding: 0 30px;
+    padding: 0px 30px;
   }
 }
 
 @media (max-width: 767px) {
   .countdown .single-count-content {
-    padding: 0 10px;
+    padding: 0px 10px;
   }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .countdown .single-count-content {
-    padding: 0 20px;
+    padding: 0px 20px;
   }
 }
 
@@ -1059,7 +1059,7 @@ input:focus {
 }
 
 .countdown .single-count-content .text {
-  margin-bottom: 0;
+  margin-bottom: 0px;
 }
 
 @media (max-width: 767px) {
@@ -1105,7 +1105,7 @@ main.main-14 .main-wrapper.demo-14 .img-wrapper {
   main.main-14 .main-wrapper.demo-14 .img-wrapper {
     display: block;
     margin-left: -150px;
-    margin-right: 0;
+    margin-right: 0px;
   }
 }
 
@@ -1205,25 +1205,25 @@ main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown {
 }
 
 main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-content {
-  padding: 0 36px;
+  padding: 0px 36px;
   position: relative;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-content {
-    padding: 0 25px;
+    padding: 0px 25px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-content {
-    padding: 0 15px;
+    padding: 0px 15px;
   }
 }
 
 @media (max-width: 767px) {
   main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-content {
-    padding: 0 15px;
+    padding: 0px 15px;
   }
 }
 
@@ -1232,7 +1232,7 @@ main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-con
 }
 
 main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-content:last-child {
-  padding-right: 0;
+  padding-right: 0px;
 }
 
 main.main-14 .main-wrapper.demo-14 .content-wrapper .countdown .single-count-content:last-child::after {
@@ -1323,24 +1323,24 @@ main.main-14 .main-wrapper.demo-14 .content-wrapper .subscribe-form button {
 footer {
     background-color: #333;
     color: white;
-    padding: 01px 0;
+    padding: 1px 0px;
     text-align: center;
 }
 
 .footer-section-title {
-	margin: 0px 0px 05px 0px;
+	margin: 0px 0px 5px 0px;
 }
 .footer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0px auto;
 }
 
 .footer-section {
     flex: 1;
-    margin: 05px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
     min-width: 200px;
 }
 
@@ -1358,7 +1358,7 @@ footer {
 .footer-section img {
     width: 24px;
     height: 24px;
-    margin: 0 5px;
+    margin: 0px 5px;
     transition: transform 0.3s;
 }
 
@@ -1385,7 +1385,7 @@ footer {
 
 @media (max-width: 480px) {
     .footer-section {
-        margin: 10px 0;
+        margin: 10px 0px;
     }
 }
 @media (max-width: 576px) {
